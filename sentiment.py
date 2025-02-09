@@ -7,7 +7,7 @@ import io
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-API_KEY = "AIzaSyD1X0-gdlVAVkZ6_LRxN5iSWTAi5WYhB_w"
+API_KEY = "******"
 
 def configure_api():
     """Configures the Google Gemini AI API."""
