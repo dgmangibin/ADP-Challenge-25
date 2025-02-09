@@ -38,8 +38,6 @@ def generate_synthetic_data():
     Examples:
     1. Type: Email, Content: "I'm feeling overwhelmed with workload and need support."
     2. Type: Chat, Content: "Great job on the project! The team worked really well together."
-   
-    Provide the data in a structured list format.
     """
 
     response = chat_session.send_message(prompt)
@@ -56,7 +54,6 @@ def generate_synthetic_data():
     return pd.DataFrame(dataset)
 
 def save_dataset(df):
-    """Returns the CSV string of the generated dataset."""
     csv = df.to_csv(index=False)
     return csv
 
