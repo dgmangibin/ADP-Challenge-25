@@ -1,39 +1,34 @@
 
-/* General body styling */
 body {
     background-color: #0b2545; 
     color: #f1dac4; 
     font-family: Arial, sans-serif;
-    text-align: center; /* Center content */
+    text-align: center; 
     margin: 0;
     padding: 0;
 }
 
-/* Application container styling */
 .stApp {
     background-color: #0b2545; 
     padding: 2rem;
     color: #f1dac4; 
 }
 
-/* Header title styling */
 h1 {
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56; 
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     text-shadow: 1px 1px 2px #000000;
 }
 
-/* Subtitle styling */
 h2, h3, h4 {
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 2rem;
 }
 
-/* Input container styling */
 input[type="file"],
 textarea,
 select {
@@ -43,13 +38,12 @@ select {
     border-radius: 5px;
     border: 1px solid #8da9c4;
     background-color: #fff;
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56; 
 }
 
-/* Button styling */
 .stButton button {
-    background-color: #8da9c4; /* Purple */
-    color: #FFFFFF; /* White */
+    background-color: #8da9c4; 
+    color: #FFFFFF;
     padding: 0.8rem 2rem;
     font-size: 1rem;
     font-weight: bold;
@@ -61,11 +55,10 @@ select {
 }
 
 .stButton button:hover {
-    background-color: #630B16; /* Dark Red */
-    color: #FFFFFF; /* White */
+    background-color: #630B16;
+    color: #FFFFFF;
 }
 
-/* Form section styling */
 form {
     display: flex;
     flex-direction: column;
@@ -77,15 +70,14 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 50%;
     margin: 2rem auto;
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56;
 }
 
-/* File upload and buttons */
 .stSidebar .stFileUploader {
     width: 100%;
     margin: auto;
     text-align: center;
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56; 
 }
 
 .stSidebar .stFileUploader input {
@@ -93,21 +85,19 @@ form {
     border: 1px solid #9400D3;
     border-radius: 5px;
     padding: 0.5rem;
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56; 
 }
 
-/* Download and prompt selection */
 .stDownloadButton button,
 .stSelectbox select {
     margin-top: 1rem;
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56; 
 }
 
-/* Adjusting alignment for better layout */
 .stSelectbox,
 .stTextArea,
 .stSidebar .stFileUploader,
 form {
     text-align: center;
-    color: #4D4A56; /* Updated text color */
+    color: #4D4A56; 
 }
