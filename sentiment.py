@@ -100,7 +100,7 @@ predefined_prompts = [
 
 ]
 
-st.title("Employee Sentiment Analysis Tool")
+st.title("Sentimetrics")
 
 st.subheader("Analyze Employee Sentiments")
 
